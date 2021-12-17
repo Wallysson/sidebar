@@ -16,7 +16,7 @@ This project was developed in
 ##
 
 ### 💻 Project
-Sidebar responsive
+Create a sidebar responsive, utilizing javascript. 
 Figma: https://bit.ly/3sdH1XB
 
 ##
