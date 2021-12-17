@@ -17,7 +17,7 @@ This project was developed in
 
 ### 💻 Project
 Sidebar responsive
-https://bit.ly/3sdH1XB
+Figma: https://bit.ly/3sdH1XB
 
 ##
 
