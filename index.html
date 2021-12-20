@@ -17,8 +17,15 @@
     <main>
       <div class="menu">
         <nav class="responsive-menu">
+          <div class="menu-toggle">
+            <img
+              src="./images/menu.svg"
+              alt="logo-menu"
+              onclick="Modal.Open()"
+            />
+          </div>
           <ul>
-            <li><img src="./images/menu.svg" alt="" /></li>
+            <!-- <li></li> -->
             <li><img src="./images/search.svg" alt="" /></li>
             <li><img src="./images/grid.svg" alt="" /></li>
             <li><img src="./images/pet.svg" alt="" /></li>
@@ -26,10 +33,50 @@
             <li><img src="./images/vet.svg" alt="" /></li>
             <li><img src="./images/settings.svg" alt="" /></li>
           </ul>
-          <div class="login"><img src="./images/log-out.svg" alt="" /></div>
         </nav>
       </div>
+      <footer class="login">
+        <img src="./images/log-out.svg" alt="" />
+      </footer>
       <div class="dashboard"><h1>Dashboard</h1></div>
+
+      <div class="modal">
+        <nav class="menu-desktop">
+          <div class="item-desktop">
+            <img src="./images/logo.svg" alt="" />
+            <img src="./images/menu.svg" alt="" onclick="Modal.Close()" />
+          </div>
+          <ul class="itens-desktop">
+            <li>
+              <img src="./images/search.svg" alt="" />
+              <span class="text-span">Buscar </span>
+            </li>
+            <li>
+              <img src="./images/grid.svg" alt="" />
+              <span class="text-span">Dashboard</span>
+            </li>
+            <li>
+              <img src="./images/pet.svg" alt="" />
+              <span class="text-span">Pets</span>
+            </li>
+            <li>
+              <img src="./images/user.svg" alt="" />
+              <span class="text-span">Clientes</span>
+            </li>
+            <li>
+              <img src="./images/vet.svg" alt="" />
+              <span class="text-span">Vets</span>
+            </li>
+            <li>
+              <img src="./images/settings.svg" alt="" />
+              <span class="text-span">Ajustes</span>
+            </li>
+          </ul>
+        </nav>
+        <footer class="login-desktop">
+          <img src="./images/log-out.svg" alt="" />
+        </footer>
+      </div>
     </main>
 
     <script src="./script.js"></script>
