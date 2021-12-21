@@ -159,5 +159,23 @@ nav li:hover {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.perfil-picture {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.perfil-description {
+  color: var(--text-color);
+}
+
+.perfil-description h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.perfil-description p {
+  font-size: 0.75rem;
 }
